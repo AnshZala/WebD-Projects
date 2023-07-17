@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="ttt.css">
+</head>
+<body>
+    <div class="navbar">
+        <ul id="menu">
+            <li class="menu"></li>
+            <li class="menu"></li>
+            <li class="menu"></li>
+        </ul>
+        <label id="l1">
+            Tic-Tac-Toe by Ansh Zala
+        </label>
+        <label id="l2">
+            Tic-Tac-Toe
+        </label>
+    </div>
+    <div class="gameContainer">
+        <div class="container">
+            <div class="box bl-0 bt-0"><span class="boxText"></span></div>
+            <div class="box bt-0"><span class="boxText"></span></div>
+            <div class="box bt-0 br-0"><span class="boxText"></span></div>
+            <div class="box bl-0"><span class="boxText"></span></div>
+            <div class="box"><span class="boxText"></span></div>
+            <div class="box br-0"><span class="boxText"></span></div>
+            <div class="box bl-0 bb-0"><span class="boxText"></span></div>
+            <div class="box bb-0"><span class="boxText"></span></div>
+            <div class="box bb-0 br-0"><span class="boxText"></span></div>
+        </div>
+        <div class="gameInfo">
+            <h1>This is my first game</h1>
+            <div>
+                <span class="info">Turn for X</span>
+                <button id="reset">Reset</button>
+            </div>
+            <div>
+                <img src="winner.gif" id="img" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="ttt.js"></script>
+</body>
+</html>
